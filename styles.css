@@ -1,0 +1,47 @@
+.row {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn {
+    background-color: #0783BC;
+    color: #ffffff
+}
+
+.nav li a {
+    color: #000000;
+}
+
+#left-header {
+    color: #0783BC
+}
+
+#right-header {
+    color: #0783BC
+}
+
+.left-block {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 60px;
+    background-color: #ffffff
+}
+
+.right-block {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #ffffff
+}
+
+#example {
+    float: left
+}
+
+body {
+    background-color: #d5d5d5
+}
+
+.bottom-thumbnail {
+    margin-top: 100px
+}

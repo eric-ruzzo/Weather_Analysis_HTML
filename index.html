@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <span class="btn"><h5>Latitude</h5></span>
+            </div>
+
+            <div class="col-3">
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" id="plots-dropdown">Plots</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" role="button" id="comparison">Comparison</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" role="button" id="data">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-7 left-block">
+                <h2 id="left-header">Summary: Latitude vs. X</h2><hr>
+                <img src="C:\Users\ericr\web_homework\Resources\assets\images/Fig1.png" width=30% height=55% id="example">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem lorem, aliquam quis erat a, molestie vehicula ligula. Pellentesque euismod nulla et odio aliquet, in egestas erat rhoncus. Vestibulum in quam vitae neque consectetur lobortis ac id libero. In venenatis laoreet tempus. Pellentesque lacinia neque ut nulla pulvinar mattis. Nunc ultrices scelerisque augue ac dictum. Etiam ultrices fringilla malesuada.</p>
+
+                <p>Quisque finibus nulla quis magna venenatis rhoncus. Ut pulvinar lobortis erat, a mollis orci feugiat sed. Vestibulum suscipit velit ac tellus fermentum, quis vestibulum risus scelerisque. Mauris tristique metus ac faucibus posuere. Vivamus tristique lacus in tortor lobortis, eu suscipit metus mattis. Maecenas eget massa congue, interdum neque ac, faucibus nulla. Vestibulum consectetur sollicitudin felis, in convallis ipsum vulputate eget. Maecenas auctor auctor magna, at iaculis lacus malesuada in.</p>
+            </div>
+
+            <div class="col-3 right-block">
+                <h3 id="right-header">Visualizations</h3><hr>
+                <div class="row top-thumbnail">
+                    <div class="col-6">
+                        <img src="C:\Users\ericr\web_homework\Resources\assets\images/Fig1.png" width=120% height=200% id="max-temp">
+                    </div>
+                    <div class="col-6">
+                        <img src="C:\Users\ericr\web_homework\Resources\assets\images/Fig2.png" width=120% height=200% id="humidity">
+                    </div>
+                </div>
+                <div class="row bottom-thumbnail">
+                    <div class="col-6">
+                        <img src="C:\Users\ericr\web_homework\Resources\assets\images/Fig3.png" width=120% height=200% id="cloudiness">
+                    </div>
+                    <div class="col-6">
+                        <img src="C:\Users\ericr\web_homework\Resources\assets\images/Fig4.png" width=120% height=200% id="wind-speed">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
