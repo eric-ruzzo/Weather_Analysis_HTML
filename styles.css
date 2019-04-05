@@ -1,15 +1,31 @@
-.row {
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border: 0px;
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    background-color: #0783BC;
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#landing {
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px
 }
 
-.btn {
-    background-color: #0783BC;
-    color: #ffffff
+.left-side {
+    position: relative;
+    margin-left: 20px
 }
 
-.nav li a {
+li a {
     color: #000000;
+    padding: 10px
 }
 
 #left-header {
@@ -20,17 +36,33 @@
     color: #0783BC
 }
 
-.left-block {
-    margin-top: 50px;
+#landing-left {
+    margin-top: 20px;
     margin-bottom: 10px;
     padding: 60px;
     background-color: #ffffff
 }
 
-.right-block {
+#landing-right {
     margin-top: 50px;
     margin-left: 20px;
-    padding: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff
+}
+
+#temp-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 60px;
+    background-color: #ffffff
+}
+
+#temp-right {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
     background-color: #ffffff
 }
 
@@ -42,6 +74,30 @@ body {
     background-color: #d5d5d5
 }
 
-.bottom-thumbnail {
-    margin-top: 100px
+#main-image {
+
+}
+
+#max-temp {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px
+}
+
+#humidity {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px
+}
+
+#cloudiness {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#wind-speed {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px
 }
